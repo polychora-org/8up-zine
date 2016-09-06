@@ -4,9 +4,12 @@ A LaTeX template for a single-sheet zine.
 
 ## Sample Output
 
-| [Screen PDF](/docs/8up-zine.pdf?raw=true) | [Print PDF](/docs/8up-zine-print-final.pdf?raw=true)                                                                                               |
+| [Screen PDF][screen] | [Print PDF][print]                                                                                               |
 |-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| ![example first page](/docs/8up-zine.png?raw=true) | ![complete booklet](/docs/8up-zine-print-final.png?raw=true) |
+| [![example first page](/docs/8up-zine.png?raw=true)][screen] | [![complete booklet](/docs/8up-zine-print-final.png?raw=true)][print] |
+
+[screen]: /docs/8up-zine.pdf
+[print]: /docs/8up-zine-print-final.pdf
 
 ## Basics
 
