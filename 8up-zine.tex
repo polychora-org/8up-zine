@@ -1,0 +1,66 @@
+\documentclass[statementpaper,oneside,article,14pt]{memoir}
+\usepackage{geometry}
+\usepackage{libertine}
+\usepackage{kantlipsum}
+
+% Disable chapter/section numbering.
+\setsecnumdepth{none}
+\maxsecnumdepth{none}
+
+% Optional background
+% http://tex.stackexchange.com/a/276280
+\usepackage{transparent}
+\usepackage{eso-pic}
+\newcommand{\BackgroundPic}[1]{%
+\put(0,0){%
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+{\transparent{0.4} \includegraphics[width=\paperwidth,height=\paperheight,%
+keepaspectratio]{#1}}%
+\vfill
+}}}
+
+\begin{document}
+
+% Edit inside the { brackets } to change these.
+
+\title{8-up Zine}
+\author{You}
+\date{Fall 2016}
+
+\begingroup
+\let\cleardoublepage\clearpage
+
+% \AddToShipoutPicture*{\BackgroundPic{samplecover}}
+
+\begin{titlingpage}
+\maketitle
+
+% Could add a small author's note, etc. here if you like.
+
+\end{titlingpage}
+
+\endgroup
+
+% As the zine is so short, you probably won't need page numbers; however, if you
+% want them, comment out the next line with a %.
+\pagestyle{empty}
+
+
+%% CONTENT GOES BELOW
+
+
+\section{Some fake text}
+
+\kant[1-6]
+
+%% CONTENT ENDS
+
+% Back cover
+
+\newpage
+
+\Large That's it! Have fun.
+
+\end{document}
