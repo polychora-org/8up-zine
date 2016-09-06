@@ -21,7 +21,7 @@ following
 If you've never worked with LaTeX before, it may be easier to
 use [LyX](https://www.lyx.org), a editor with a visual interface. You will still
 need a TeX distribution for your operating system. Alternatively, you can upload
-the zip of this template to [ShareLaTeX](https://www.sharelatex.com) without
+the [zip file of this template](https://github.com/completeconcordance/8up-zine/archive/master.zip) to [ShareLaTeX](https://www.sharelatex.com) without
 installing anything, though you will have to make an account.
 
 ## Usage
