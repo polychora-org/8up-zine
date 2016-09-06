@@ -7,7 +7,7 @@
 \textclass memoir
 \begin_preamble
 \usepackage{libertine}
-\usepackage{kantlipsum}
+\usepackage{lipsum}
 \end_preamble
 \options statementpaper,oneside,14pt
 \use_default_options true
@@ -88,6 +88,13 @@ Your Name
 The Date
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section*
 Some Fake Text
 \end_layout
@@ -105,12 +112,25 @@ status open
 
 
 \backslash
-kantlipsum[1-6]
+lipsum[1-8]
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size huge
+That's it! Have fun.
 \end_layout
 
 \end_body
