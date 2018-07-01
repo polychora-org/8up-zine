@@ -6,10 +6,10 @@ A LaTeX template for a single-sheet zine.
 
 | [Screen PDF][screen] | [Print PDF][print]                                                                                               |
 |-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| [![example first page](/docs/8up-zine.png?raw=true)][screen] | [![complete booklet](/docs/8up-zine-print-final.png?raw=true)][print] |
+| [![example first page](docs/8up-zine.png?raw=true)][screen] | [![complete booklet](docs/8up-zine-print-final.png?raw=true)][print] |
 
-[screen]: /docs/8up-zine.pdf
-[print]: /docs/8up-zine-print-final.pdf
+[screen]: docs/8up-zine.pdf
+[print]: docs/8up-zine-print-final.pdf
 
 ## Basics
 
@@ -32,14 +32,14 @@ will have to make an account. See notes on using ShareLaTeX below.
 adaptable for other *nix systems.)
 
 Open `8up-zine.tex` (or `8up-zine.lyx`) and insert your content, taking care
-that it fills exactly 8 pages including the front and back cover. Then run
-`compile.sh`, in the Terminal or by double-clicking it. This will generate two
-files: `8up-zine-print-step1.pdf`, containing the pages two to a sheet, and then
-`8-up-zine-print-final.pdf`, which has the complete layout on one sheet.
+that it fills exactly 8 pages including the front and back cover. (If using LyX,
+you must export the file as `8up-zine.tex` by going to the "File" menu ->
+"Export" -> "LaTeX (pdflatex).") Then run `make` in the Terminal. This will
+generate three files:
 
-(`compile.sh` doesn't do anything special, so you can compile the intermediate
-PDFs manually if you want -- it's just a convenience.)
-
+- `8up-zine.pdf`: a normal PDF suitable for screens
+- `8up-zine-print-step1.pdf`: an intermediate stage with pages two to a sheet.
+- `8-up-zine-print-final.pdf`: the complete layout on one sheet.
 
 ## ShareLaTeX
 
